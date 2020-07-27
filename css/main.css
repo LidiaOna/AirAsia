@@ -329,52 +329,64 @@ p{
 	margin-top: -88px;
   padding-top: 25px;
 }
-
 .footer{
 	height: 113px;
 	position: relative;
 }
-.socials{
+.socials-wrapper{
 	position: absolute;
-	top: 24px;
-	right: 265px;
+	margin-top: 25px;
+	margin-left: 701px;
+}
+.socials__list{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
 }
 .socials__item{
 	display: inline-block;
-	vertical-align: middle;
-	margin-right: 6px;
-}
-.socials__item:last-child{
-	margin-right: 0;
-}
-.socials__link{
-	display: block;
-	text-decoration: none;
 	width: 36px;
 	height: 36px;
-	background: center center no-repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	margin-right: 6px;
+	opacity: 0.5;
+}
+.socials__item:hover{
+	opacity: 1;
+}
+.socials__item:last-of-type{
+	margin-right: 0;
 }
 .socials__item--icon--telegram{
-	background-image: url("../img/icons/socials/t.png");
+	background-image: url(../img/icons/socials/t.png);
 }
 .socials__item--icon--telegram:hover{
-	background-image: url("../img/icons/socials/t2.png");
+	background-image: url(../img/icons/socials/t2.png);
 }
 .socials__item--icon--vk{
-	background-image: url("../img/icons/socials/vk.png");
+	background-image: url(../img/icons/socials/vk.png);
 }
 .socials__item--icon--vk:hover{
-	background-image: url("../img/icons/socials/vk2.png");
+	background-image: url(../img/icons/socials/vk2.png);
 }
 .socials__item--icon--fb{
-	background-image: url("../img/icons/socials/f.png");
+	background-image: url(../img/icons/socials/f.png);
 }
 .socials__item--icon--fb:hover{
-	background-image: url("../img/icons/socials/f2.png");
+	background-image: url(../img/icons/socials/f2.png);
 }
 .socials__item--icon--insta{
-	background-image: url("../img/icons/socials/in.png");
+	background-image: url(../img/icons/socials/in.png);
 }
 .socials__item--icon--insta:hover{
-	background-image: url("../img/icons/socials/in2.png");
+	background-image: url(../img/icons/socials/in2.png);
+}
+.socials__link{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-indent: 102%;
+	white-space: nowrap;
 }
