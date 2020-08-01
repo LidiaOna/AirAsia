@@ -47,5 +47,5 @@ body, html{
 	width: 1140px;
 }
 .main-page-wrapper{
-	background: url("./../../img/bg/hero.jpg") center top no-repeat, url("./../../img/bg/bottom-pic.jpg") right bottom 240px no-repeat;
+	background: url("./../../img/bg/hero.jpg") center top no-repeat, url("./../../img/bg/bottom-pic.jpg") right bottom 155px no-repeat;
 }
