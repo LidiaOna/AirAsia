@@ -24,10 +24,17 @@
 .pager__item{
 	text-align: center;
 }
+
 .pager__item--active .pager__link{
 	background: #fff;
 	color: #f5170e;
-	}
+}
+
+.pager__item .pager__link:hover{
+	background: #fff;
+	color: #f5170e;
+}
+
 .pager__link{
 	display: block;
 	width: 32px;
