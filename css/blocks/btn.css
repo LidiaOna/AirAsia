@@ -1,0 +1,27 @@
+.btn{
+	background: #F5170E;
+	border-radius: 35px;
+	padding: 18px 39px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+}
+.btn:hover{
+	background: #da0100;
+}
+
+.btn--color--white{
+	background: #fff;
+	border: 1px solid #f5170e;
+	color: #f5170e;
+}
+.btn--color--white:hover {
+	background:#f5170e;
+	color: #fff;
+}
+.btn--size--small{
+	padding: 15px 29px;
+}

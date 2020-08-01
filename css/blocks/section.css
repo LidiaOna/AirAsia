@@ -1,0 +1,17 @@
+.section{
+	margin-bottom: 136px;
+}
+.section__title{
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 48px;
+}
+.section__title-text{
+	display: inline-block;
+	vertical-align: middle;
+	min-width: 266px;
+}
+.section__title-icon{
+	display: inline-block;
+	vertical-align: middle;
+}

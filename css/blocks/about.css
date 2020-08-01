@@ -1,0 +1,44 @@
+.about__section{
+	padding-top: 12px;
+	margin-bottom: 42px;
+}
+.about{
+	display: flex;
+}
+.about:before {
+	content: "";
+	width: 488px;
+	height: 502px;
+	background: url("./../../img/decor/background-back.jpg") center center / cover no-repeat;
+	border-radius: 5px;
+	overflow: hidden;
+	display: block;
+}
+
+.about__info{
+	background: url("./../../img/decor/background-front.jpg") center center / cover no-repeat;
+	padding: 67px 96px;
+	max-width: 780px;
+	min-height: 454px;
+	margin-left: -129px;
+	margin-top: 108px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.about__title{
+	color: #000;
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 28px;
+}
+.about__info-text{
+	color: #303030;
+	line-height: 27px;
+	margin-bottom: 41px;
+}
+.about__info-text p{
+	margin-bottom: 20px;
+}
+.about__info-text p:last-child{
+	margin-bottom: 0;
+}
