@@ -1,23 +1,24 @@
 .partners{
 	display: flex;
 	flex-wrap: wrap;
-}
-.partners__link{
-	text-decoration: none;
-	display: flex;
-	width: 250px;
-	height: 100px;
+	justify-content: space-between;
 	align-items: center;
-	justify-content: center;
-	filter: grayscale(100%);
 }
-.partners__link:hover{
+
+.partners__item{
+	flex-basis: 24%;
+	display: flex;
+	margin-bottom: 70px;
+	filter: grayscale(1);
+}
+.partners__item:hover{
 	filter: grayscale(0);
 }
-.partners__item{
-	margin-left: 46px;
-	
+
+.partners__item:nth-child(4n+1){
+	justify-content: flex-start;
 }
-.partners__item:nth-child(4n + 1){
-	margin-left: 0;
+.partners__item:nth-child(4n){
+	justify-content: flex-end;
 }
+

@@ -29,7 +29,10 @@
 	background: #fff;
 	color: #f5170e;
 }
-
+.pager__link:hover {
+	background-color: #fff;
+	color: #F5170E;
+}
 .pager__link{
 	display: block;
 	width: 32px;
