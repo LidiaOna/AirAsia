@@ -7,7 +7,7 @@
 	height: 100%;
 	align-items: center;
 	justify-content: center;
-	background: url("./../../img/bg/presentation.png") center center no-repeat;
+	background: url("./../../img/bg/welcome.jpg") center center no-repeat;
 }
 .welcome__container{
 	min-width: 591px;
