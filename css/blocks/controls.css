@@ -1,4 +1,3 @@
-
 .controls{
 	flex: 1;
 	display: flex;
@@ -13,6 +12,9 @@
 }
 .controls__checkbox:checked ~ .controls__tag{
 	background: #b9eae4;
+}
+.controls__tag{
+	display: block;
 }
 .controls__checkbox{
 	display: none;

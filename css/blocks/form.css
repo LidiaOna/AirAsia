@@ -20,6 +20,9 @@
 	border: 1px solid #f5170e;
 	transition: .3s;
 }
+.form__input:focus{
+	border: 1px solid #f5170e;
+}
 .form__input::placeholder{
 	color: #666;
 }
