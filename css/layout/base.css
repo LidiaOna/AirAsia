@@ -34,6 +34,11 @@ p{
 body, html{
 	height: 100%;
 }
+button{
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
 
 .wrapper{
 	display: flex;

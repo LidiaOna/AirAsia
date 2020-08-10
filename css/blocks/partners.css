@@ -13,6 +13,7 @@
 }
 .partners__item:hover{
 	filter: grayscale(0);
+	transition: .3s;
 }
 
 .partners__item:nth-child(4n+1){
